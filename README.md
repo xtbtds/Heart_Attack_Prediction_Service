@@ -1,2 +1,2 @@
 # Heart_Attack_Prediction_Service
-hhhhhhhhhhhhh
+`docker-compose up -d`
