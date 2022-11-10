@@ -1,0 +1,7 @@
+services:
+  predict_web:
+    build: .
+    ports:
+      - 9696:9696
+    volumes:
+      - .:/app:cached
