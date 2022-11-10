@@ -42,4 +42,8 @@ If you want to run the app in virtual environment, uncomment these 2 lines in `D
 RUN pip install pipenv
 RUN pipenv install --deploy --system
 ```
+And make sure that you removed this line:
+```
+# RUN pip install -r requirements.txt
+```
 The repository already has `Pipfile` and `Pipfile.lock`.
