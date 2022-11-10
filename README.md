@@ -1,6 +1,6 @@
 # Heart Attack Prediction Service
 *Dataset: https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset*  
-### This app predicts the probability of heart attack based on these parameters: 
+### FastAPI app predicting the probability of heart attack based on these parameters: 
   
 ***Age*** - Age of the patient  
 ***sex*** - Sex of the patient  
