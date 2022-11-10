@@ -26,5 +26,16 @@
 - cd <project_folder>
 - docker-compose up -d
 ```
+
+- To run the project using docker:
+```
+- docker build -t <image_name>
+- docker images | grep <image_name>   #check built image
+- docker run -p 9696:9696 -it --rm  attack:v1
+```
+- If you have en error `docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?` try this:
+```
+- sudo dockerd
+```
 - Then run jupyter notebook named `test_service.ipynb` to predict result on your data.
 
