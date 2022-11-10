@@ -36,7 +36,7 @@
 
 - Then run jupyter notebook named `test_service.ipynb` to predict result on your data.
 
-#### Virtual environment pipenv (optional)
+## Virtual environment pipenv (optional)
 If you want to run the app in virtual environment, uncomment these 2 lines in `Dockerfile`:
 ```
 RUN pip install pipenv
