@@ -1,4 +1,4 @@
-# Heart_Attack_Prediction_Service
+# Heart Attack Prediction Service
 This app predicts the probability of heart attack based on these parameters: 
 ```
 **age** - Age of the patient
