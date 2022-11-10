@@ -29,9 +29,9 @@
 
 - To run the project using docker:
 ```
-- docker build -t <image_name>
-- docker images | grep <image_name>   #check built image
-- docker run -p 9696:9696 -it --rm  attack:v1
+- docker build -t <image_name_tag>
+- docker images | grep <image_name_tag>   #check built image
+- docker run -p 9696:9696 -it --rm  <image_name_tag>
 ```
 
 - Then run jupyter notebook named `test_service.ipynb` to predict result on your data.
