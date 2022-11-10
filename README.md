@@ -24,7 +24,8 @@ Trained 2 models: Random Forest and Logistic Regression with parameter tuning an
 
 ### To run the app using docker compose:  
 ```
-docker-compose up -d
+- cd <project_folder>
+- docker-compose up -d
 ```
 ### Then run jupyter notebook named `test_service.ipynb`
 
