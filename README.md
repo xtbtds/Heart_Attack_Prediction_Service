@@ -22,10 +22,10 @@ Parameters:
 
 Trained 2 models: Random Forest and Logistic Regression with parameter tuning and cross validation. The best auc-roc score is 87%. NOTE, that due to the lack of data, model works correctly only with specific range of each parameter (f.e, there are no raws for age <= 30, so I do not recommend to use it seriously).
 
-### To run the app using docker compose:  
+- To run the app using docker compose:  
 ```
 - cd <project_folder>
 - docker-compose up -d
 ```
-### Then run jupyter notebook named `test_service.ipynb`
+- Then run jupyter notebook named `test_service.ipynb` to predict result on your data.
 
