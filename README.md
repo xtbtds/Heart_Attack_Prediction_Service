@@ -1,7 +1,7 @@
 # Heart Attack Prediction Service
 *Dataset: https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset*  
 
-FastAPI app predicting the probability of heart attack. Trained 2 models: Random Forest and Logistic Regression with parameter tuning and cross validation. The best *AUC-ROC* score is ***87%***. NOTE, that due to the lack of data, model works correctly only with specific range of each parameter (f.e, there are no raws for age <= 30 in train dataset, so I do not recommend to use it seriously). Run `notebook.ipynb` to see what does the data look like.
+FastAPI app predicting the probability of heart attack. Trained 2 models: Random Forest and Logistic Regression with parameter tuning and cross validation. The best *AUC-ROC* score is ***87%***. NOTE, that due to the lack of data, model works correctly only with specific range of each parameter (f.e, there were no rows for age <= 30 in train dataset, so I do not recommend to use it seriously). Run `notebook.ipynb` to see what does the data look like.
 
 Parameters:
   
