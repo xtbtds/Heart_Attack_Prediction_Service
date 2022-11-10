@@ -1,6 +1,9 @@
 # Heart Attack Prediction Service
 *Dataset: https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset*  
-### FastAPI app predicting the probability of heart attack based on these parameters: 
+
+FastAPI app predicting the probability of heart attack. Trained 2 models: Random Forest and Logistic Regression with parameter tuning and cross validation. The best *AUC-ROC* score is ***87%***. NOTE, that due to the lack of data, model works correctly only with specific range of each parameter (f.e, there are no raws for age <= 30 in train dataset, so I do not recommend to use it seriously). Run `notebook.ipynb` to see what does the data look like.
+
+Parameters:
   
 ***Age*** - Age of the patient  
 ***sex*** - Sex of the patient  
@@ -16,7 +19,9 @@
 ***thall*** - Thalium Stress Test result ~ (0,3)  
 ***exng*** - Exercise induced angina ~ 1 = Yes, 0 = No  
 ***output*** - Target variable  
-    
+
+Trained 2 models: Random Forest and Logistic Regression with parameter tuning and cross validation. The best auc-roc score is 87%. NOTE, that due to the lack of data, model works correctly only with specific range of each parameter (f.e, there are no raws for age <= 30, so I do not recommend to use it seriously).
+
 ### To run the app using docker compose:  
 ```
 docker-compose up -d
